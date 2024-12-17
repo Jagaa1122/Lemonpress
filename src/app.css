@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.header img {
+    width: 200px;
+}
+.header ul {
+    display: flex;
+    gap:20px;
+    
+}
+.header svg {
+    width: 25px;
+    height: 25px;
+}
+.button {
+    background-color: rgba(28, 59, 238, 0.895);
+    border-radius: 12px;
+}
