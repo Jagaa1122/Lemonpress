@@ -21,9 +21,9 @@ export const cardItems = [
 ]
 export const newsItems = [
     {
-        type:"Хэвлэлийн Мэдээghffgh",
+        type:"Хэвлэлийн Мэдээ",
         img: "https://dash-api.yld.mn/api/image/3d5884ea-6a53-4cec-89aa-3e04982705c1",
-        title:"Монгол бартендэр дэлхийд өрсөлдлөө",
+        title:"",
         author:"12 сарын 13, 2024"
     },
     {
