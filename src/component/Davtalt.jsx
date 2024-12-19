@@ -1,4 +1,4 @@
-import { cardItems, newsItems, sideMenu } from "./array";
+import { cardItems, news, newsItems, sideMenu } from "./array";
 import Card from "./Card";
 
 export function Davtalt() {
@@ -53,13 +53,13 @@ export function Davtalt2() {
 }
 export function Davtalt3() {
   return (
-    <div className="mainpost1">
+    <div className="rightpost">
       {sideMenu.map((side) => {
         return (
           <div>
             <div className="mainpost1">
               <img src={side.img} alt="" />
-            </div>
+           
             {side.text.map((text) => {
               return (
                 <div className="post-detail">
@@ -69,9 +69,27 @@ export function Davtalt3() {
                 </div>
               );
             })}
+             </div>
           </div>
         );
       })}
     </div>
   );
 }
+
+export function Davtalt4() {
+  return (
+    <div>
+      {news.map((medee) => {
+        return (
+         <Davtalt4
+         image={medee.imageSrc}
+         type={medee.type}
+         title={medee.title}
+         date={medee.date}
+         />
+        );
+      })}
+    </div>
+  );
+};
