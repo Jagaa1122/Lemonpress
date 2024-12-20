@@ -7,7 +7,7 @@ export function Davtalt() {
       <div className="medeenii-ner">
         <h2>Business</h2>
         <span className="zuraas"></span>
-        <p>iluu uzeh</p>
+        <p>Илүү үзэх</p>
       </div>
       {
         <div className="cards">
@@ -32,7 +32,7 @@ export function Davtalt2() {
       <div className="medeenii-ner">
         <h2>Business</h2>
         <span className="zuraas"></span>
-        <p>iluu uzeh</p>
+        <p>Илүү үзэх</p>
       </div>
       {
         <div className="cards">

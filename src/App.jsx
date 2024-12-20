@@ -7,7 +7,7 @@ import { Davtalt3 } from "./component/Davtalt";
 import { Tohimol } from "./component/Tohimol";
 import News from "./component/News";
 import Subscribe from "./component/Subscribe";
-
+import Section3 from "./component/Section3";
 function App() {
   return (
     <div>
@@ -51,6 +51,7 @@ function App() {
         </div>
 
         <Subscribe />
+        <Section3 />
         <Davtalt />
         <Davtalt2 />
         <Davtalt />

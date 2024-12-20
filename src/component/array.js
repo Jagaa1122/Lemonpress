@@ -159,4 +159,55 @@ export const tohimoluud = [
       "date": "Wed, 20 Nov 2024 23:00:00 +0000"
   }
 ]
+export const section3news = [
+  {
+      "title": "Fulham клубтэй хамтарсан Adidas брэндийн \"Mongolia\" загварууд Монголд",
+      "date": "12 сарын 20, 2024",
+      "type": "Хэвлэлийн мэдээ",
+      "image": "https://dash-api.yld.mn/api/image/1e166582-3f27-4918-b50b-cfc1f99ec7a6"
+  },
+  {
+      "title": "Н.Мөнхнасан: ЗГ-ын гэнэтийн шийдвэрүүдийн золиос нь дотоодын компаниуд, хөрөнгө оруулагчид",
+      "date": "12 сарын 20, 2024",
+      "type": "Interview",
+      "image": "https://dash-api.yld.mn/api/image/c8d11904-501b-41a3-93c6-8cf33b2126f3"
+  },
+  {
+      "title": "Монголын литийн нөөц нэмэгдэж 680,000 тн-д хүрээд байна",
+      "date": "12 сарын 19, 2024",
+      "type": "Уул уурхай",
+      "image": "https://dash-api.yld.mn/api/image/3f79962d-22bf-4e14-ab02-d0b95b9024f7"
+  },
+  {
+      "title": "ХНС-ын бодлогын хүү буурах нь Монголд ямар өгөөжтэй вэ?",
+      "date": "12 сарын 19, 2024",
+      "type": "Эдийн засаг",
+      "image": "https://dash-api.yld.mn/api/image/1421f41e-074a-4c97-92a6-75f7471bb9f3"
+  },
+  {
+      "title": "Азын хүрд эргүүлээд Фукуок руу",
+      "date": "12 сарын 19, 2024",
+      "type": "Сурталчилгаа",
+      "image": "https://dash-api.yld.mn/api/image/ce268315-b8dd-4e84-8550-3fd3b38b86e0"
+  },
+  {
+      "title": "Утааны асуудлыг \"Яндангүй бүс\" гаргаж шийдэх юм гэнэ",
+      "date": "12 сарын 18, 2024",
+      "type": "Улс төр",
+      "image": "https://dash-api.yld.mn/api/image/3d2c2b01-93e7-4b05-824a-4c0d681c9e7a"
+  },
+  {
+      "title": "Ирэх онд нээлтээ хийх ТОП 10 кино",
+      "date": "12 сарын 18, 2024",
+      "type": "Зах зээл",
+      "image": "https://dash-api.yld.mn/api/image/ae558d6d-7ada-4c3a-835f-9fa23e614b0c"
+  },
+  {
+      "title": "Оюу толгой орон нутгийн тогтвортой хөгжлийг жил бүр $5 саяар дэмждэг",
+      "date": "12 сарын 18, 2024",
+      "type": "Mining 101",
+      "image": "https://dash-api.yld.mn/api/image/b548006a-38da-491d-81b9-6a99f10ca18f"
+  }
+]
+
  
