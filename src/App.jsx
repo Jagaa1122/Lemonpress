@@ -4,8 +4,9 @@ import "./app.css";
 import { Davtalt } from "./component/Davtalt";
 import { Davtalt2 } from "./component/Davtalt";
 import { Davtalt3 } from "./component/Davtalt";
-import { Tohimol} from "./component/Tohimol";
-
+import { Tohimol } from "./component/Tohimol";
+import News from "./component/News";
+import Subscribe from "./component/Subscribe";
 
 function App() {
   return (
@@ -14,10 +15,7 @@ function App() {
       <Header />
       <div className="container">
         <div className="zar">
-          <img
-            src="/images/zar.png"
-            alt=""
-          />
+          <img src="/images/zar.png" alt="" />
         </div>
         <div className="lemonade">
           <div className="lemon">
@@ -45,11 +43,14 @@ function App() {
             </div>
           </div>
           <Davtalt3 />
-         
         </div>
         <div className="section2">
-         <Tohimol/>
-         </div>
+          <Tohimol />
+          <News />
+          <Davtalt3 />
+        </div>
+
+        <Subscribe />
         <Davtalt />
         <Davtalt2 />
         <Davtalt />
