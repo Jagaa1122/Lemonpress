@@ -8,6 +8,7 @@ import { Tohimol } from "./component/Tohimol";
 import News from "./component/News";
 import Subscribe from "./component/Subscribe";
 import Section3 from "./component/Section3";
+import Footer from "./component/Footer";
 function App() {
   return (
     <div>
@@ -57,6 +58,7 @@ function App() {
         <Davtalt />
         <Davtalt2 />
         <Davtalt />
+        <Footer />
 
         {/* <div className="cards">
             {
