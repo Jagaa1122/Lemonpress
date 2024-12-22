@@ -22,7 +22,20 @@ export function Footer() {
         </div>
         <div className="footer-line"></div>
       </div>
-      <div className="footer-middle"></div>
+      <div className="footer-middle">
+        <div className="footer-middle-pic">
+          <img src="./images/lemonpress-white.svg" alt="" />
+        </div>
+        <p>Бид санхүү, хөрөнгө оруулалтын мэдээ<br></br> мэдээллийг ажлын өдрүүдэд 7:00 цагт таны
+          <br></br>имэйл хаягт хүргэх болно.</p>
+        <p>Утас: 7755 2400<br></br>
+          Имэйл: daily@lemonpress.mn</p>
+          <div className="footer-middle-para">
+            <h2>Товхимол</h2>
+            <p>Lemon Press<br></br>
+            Inside Mongolia</p>
+          </div>
+      </div>
       <div className="footer-bottom"></div>
     </div>
   );
