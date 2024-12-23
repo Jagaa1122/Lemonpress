@@ -468,18 +468,20 @@ body {
   margin-bottom: 20px;
 }
 .footer {
-  background-color: #2f6af5;
+  background-color: #0040d4;
   width: 100%;
-  height: 400px;
+  color: #fff;
   margin-top: 30px;
-  border-radius: 8px;
+  
 }
 .footer-top-icons {
   display: flex;
   gap: 30px;
   justify-content: center;
   padding: 30px;
-  div {
+  
+}
+.footer-top-icons div {
     width: 40px;
     height: 40px;
     background-color: #fff;
@@ -487,13 +489,46 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    img {
-      width: 25px;
-      height: 25px;
-    }
+    
   }
-}
+.footer-top-icons div img {
+    width: 25px;
+    height: 25px;
+  }
 
-.footer-line {
-  border-bottom: 1px solid rgb(217, 217, 217);
+.footer-middle {
+    display: flex;
+    gap: 40px;
+    color: #fff;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-top: 1px solid rgb(217, 217, 217);
+    padding: 50px;
+    font-size: 14px;
+} 
+.footer-middle-pic p {
+    margin-bottom: 20px;
+}
+.footer-middle-pic img {
+    margin-bottom: 30px;
+}
+.footer-middle-para h2 {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.footer-middle-para p {
+    margin-bottom: 20px;
+    color: #ffffff9b;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+.footer-bottom div {
+    background-color: #ffffff3c;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+
 }

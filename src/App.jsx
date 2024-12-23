@@ -58,7 +58,7 @@ function App() {
         <Davtalt />
         <Davtalt2 />
         <Davtalt />
-        <Footer />
+        
 
         {/* <div className="cards">
             {
@@ -78,6 +78,7 @@ function App() {
           }
             </div> */}
       </div>
+      <Footer />
     </div>
   );
 }
