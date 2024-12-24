@@ -25,16 +25,31 @@ export function Footer() {
       <div className="footer-middle">
         <div className="footer-middle-pic">
           <img src="./images/lemonpress-white.svg" alt="" />
+          <p>
+            Бид санхүү, хөрөнгө оруулалтын мэдээ<br></br> мэдээллийг ажлын
+            өдрүүдэд 7:00 цагт таны
+            <br></br>имэйл хаягт хүргэх болно.
+          </p>
+          <p>
+            Утас: 7755 2400<br></br>
+            Имэйл: daily@lemonpress.mn
+          </p>
         </div>
-        <p>Бид санхүү, хөрөнгө оруулалтын мэдээ<br></br> мэдээллийг ажлын өдрүүдэд 7:00 цагт таны
-          <br></br>имэйл хаягт хүргэх болно.</p>
-        <p>Утас: 7755 2400<br></br>
-          Имэйл: daily@lemonpress.mn</p>
-          <div className="footer-middle-para">
-            <h2>Товхимол</h2>
-            <p>Lemon Press<br></br>
-            Inside Mongolia</p>
-          </div>
+
+        <div className="footer-middle-para">
+          <h2>Товхимол</h2>
+          <p>
+            Lemon Press<br></br>
+            Inside Mongolia
+          </p>
+        </div>
+        <div className="footer-middle-right">
+          <h2>Бидний тухай</h2>
+          <p>
+            Бидний тухай<br></br> Хамтран ажиллах <br></br>Редакцын бодлого
+            Inside Mongolia
+          </p>
+        </div>
       </div>
       <div className="footer-bottom"></div>
     </div>
